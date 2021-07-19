@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="images/xypo/logo.png" class="logo">
+
+        <div class="header-container">
+
+            <h1>Lorem ipsum dolor sit amet, consectetur  adipisicing elit. Quos, repellat.</h1>
+            <span class="square"></span>
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque numquam pariatur dolores in. Et, aspernatur adipisci officiis amet at dolorem odio placeat dolore maiores assumenda. Excepturi temporibus rem magnam dolorum!</p>
+            <button class="common-bnt">Read More</button>
+
+           <div class="line">
+               <span class="line-1"></span><br>
+               <span class="line-2"></span><br>
+               <span class="line-3"></span>
+           </div>
+        </div>
+
+        </div>
+
+    </section>
+
+    <nav id="sideNav">
+            <ul>
+              
+                <li> <a href="#">HOME</a> </li>
+                <li> <a href="#">ABOUT US</a> </li>
+                <li> <a href="#">FEATURES</a> </li>
+                <li> <a href="#">COURSE</a> </li>
+                <li> <a href="#">OFFER</a> </li>
+                <li> <a href="#">CONTACT</a> </li>
+            </ul>
+    
+    </nav>
+
+    <img src="images/xypo/menu.png" id="menuBtn">
+    
+   
+    <!--About-->
+
+    <section id="about">
+        <div class="about-left-col">
+            <img src="images/xypo/about.png">
+        </div>
+
+        <div class="about-right-col">
+
+            <div class="about-text">
+                <h1>About Us</h1>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias eveniet labore, iure tempore autem ut quos delectus eaque doloribus qui nisi quas ipsam placeat debitis laudantium. Similique voluptate repellat suscipit. Perferendis officiis repellendus velit quam voluptatum reiciendis, non nam sit rem a! Quae dolorem rem cumque, pariatur dolor doloribus excepturi!</p><br><br>
+
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+                <h2><q>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat provident dolorum, cum cumque modcessitatibus molestiae. Dolor, natus vitae!</q></h2>
+                <h3>----Prohlad Mandal</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Features-->
+    <section id="features">
+        <div class="feature-row">
+
+            <div class="feature-col">
+                <img src="images/xypo/pic-1.png">
+                <h4>Learn Anywhere</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse corrupti perspiciatis minima quidem possimus deserunt, nobis rerum commodi dignissimos at pariatur. Doloribus deserunt iusto aut.</p>
+            </div>
+
+            <div class="feature-col">
+                <img src="images/xypo/pic-2.png">
+                <h4>Expert Teachers</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse corrupti perspiciatis minima quidem possimus deserunt, nobis rerum commodi dignissimos at pariatur. Doloribus deserunt iusto aut.</p>
+            </div>
+
+            <div class="feature-col">
+                <img src="images/xypo/pic-3.png">
+                <h4>Unlimited Access</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse corrupti perspiciatis minima quidem possimus deserunt, nobis rerum commodi dignissimos at pariatur. Doloribus deserunt iusto aut.</p>
+                
+            </div>
+
+        </div>
+
+        <div class="feature-btn">
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+            <button class="common-bnt">Start Free</button>
+        </div>
+
+    </section>
+
+
+    <section id="courses">
+        <div class="container course-row">
+            <div class="course-left-col">
+                <div class="course-text">
+                    <h1>Browse our top<br>course</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita libero inventore fugiat! Voluptatum earum nemo nisi saepe! Eveniet optio saepe assumenda voluptatem libero architecto nostrum ipsa dignissimos corporis, fuga earum.</p>
+                    <button class="common-bnt">View All Course</button>
+                    <div class="line">
+                        <span class="line-1"></span><br>
+                        <span class="line-2"></span><br>
+                        <span class="line-3"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-right-col">
+                <img src="images/xypo/course.png">
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var menuButton = document.getElementById("menuBtn");
+        var sideNa = document.getElementById("sideNav");
+
+        sideNa.style.right = "-250px";
+        menuButton.onclick = function(){
+            if(sideNa.style.right == "-250px"){
+                sideNa.style.right = "0px";
+            }
+            else{
+                sideNa.style.right = "-250px";
+            }
+        }
+    </script>
+
+</body>
+</html>
